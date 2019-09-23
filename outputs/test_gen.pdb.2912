@@ -37,3 +37,42 @@ CONECT   20   19
 CONECT   21   19
 CONECT   22   19
 END
+REMARK   1 CREATED WITH OPENMM 7.3.1, 2019-09-23
+HETATM    1  H1  ACE A   1      10.228 -11.277  -8.563  1.00  0.00           H  
+HETATM    2  CH3 ACE A   1      -9.614   2.749   3.503  1.00  0.00           C  
+HETATM    3  H2  ACE A   1       0.015  -4.762 -11.064  1.00  0.00           H  
+HETATM    4  H3  ACE A   1       0.375   0.487   5.539  1.00  0.00           H  
+HETATM    5  C   ACE A   1       0.930   4.357   2.050  1.00  0.00           C  
+HETATM    6  O   ACE A   1       0.518   5.623 -18.209  1.00  0.00           O  
+ATOM      7  N   ALA A   2     -14.786  -5.194  -3.021  1.00  0.00           N  
+ATOM      8  H   ALA A   2       7.328  -6.972 -12.219  1.00  0.00           H  
+ATOM      9  CA  ALA A   2      11.341   8.041   1.665  1.00  0.00           C  
+ATOM     10  HA  ALA A   2       0.436  -0.692   0.312  1.00  0.00           H  
+ATOM     11  CB  ALA A   2      15.038   0.167  12.218  1.00  0.00           C  
+ATOM     12  HB1 ALA A   2      -5.718  -8.668   2.314  1.00  0.00           H  
+ATOM     13  HB2 ALA A   2       4.072   3.254  -4.884  1.00  0.00           H  
+ATOM     14  HB3 ALA A   2      -3.086  10.547  -3.312  1.00  0.00           H  
+ATOM     15  C   ALA A   2      -5.458   1.321   0.652  1.00  0.00           C  
+ATOM     16  O   ALA A   2     -16.703   2.573   9.025  1.00  0.00           O  
+HETATM   17  N   NME A   3     -12.517  12.325  16.781  1.00  0.00           N  
+HETATM   18  H   NME A   3      -8.749   6.699 -14.229  1.00  0.00           H  
+HETATM   19  C   NME A   3      -1.886  -3.423 -16.624  1.00  0.00           C  
+HETATM   20  H1  NME A   3     -13.516   5.541  -5.265  1.00  0.00           H  
+HETATM   21  H2  NME A   3      -6.146 -16.113  -1.454  1.00  0.00           H  
+HETATM   22  H3  NME A   3      -6.385  -6.001  -4.141  1.00  0.00           H  
+TER      23      NME A   3
+CONECT    1    2
+CONECT    2    3    4    1    5
+CONECT    3    2
+CONECT    4    2
+CONECT    5    6    7    2
+CONECT    6    5
+CONECT    7    5
+CONECT   15   17
+CONECT   17   18   15   19
+CONECT   18   17
+CONECT   19   20   21   22   17
+CONECT   20   19
+CONECT   21   19
+CONECT   22   19
+END
